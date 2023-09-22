@@ -7,8 +7,8 @@ import { useRef, useState, useEffect } from 'react';
 import emailjs, { EmailJSResponseStatus } from '@emailjs/browser';
 
 const ContactPage = () => {
-  const serverId = process.env.NEXT_PUBLIC_SERVER_ID as string;
-  const templateId = process.env.NEXT_PUBLIC_TEMPLATE_ID as string;
+  const serverId = process.env.NEXT_PUBLIC_SERVER_ID
+  const templateId = process.env.NEXT_PUBLIC_TEMPLATE_ID
   const publicKey = process.env.NEXT_PUBLIC_PUBLIC_KEY;
   if (!serverId || !templateId || !publicKey) {
     throw new Error('Environment variables not set');

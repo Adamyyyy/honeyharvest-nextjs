@@ -1,4 +1,5 @@
 import 'styles/scss/styles.scss';
+import Head from './head';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 
@@ -9,7 +10,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <head />
+      <Head />
       <body>
         <Header />
         {children}
