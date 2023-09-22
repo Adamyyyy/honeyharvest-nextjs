@@ -21,10 +21,10 @@ const BeneFitSection = () => {
               />
               <h3 className="item-title">Perfect for backyard beekeepers</h3>
               <div className="item-desc">
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-                commodo ligula eget dolor. Aenean massa. Cum sociis natoque
-                penatibus et magnis dis parturient montes, nascetur ridiculus
-                mus.
+                If you&apos;ve ever dream of hearing the gentle hum of bees
+                while sipping your morning coffee or marveled at the idea of
+                harvesting your own golden honey, then you&apos;re in the right
+                place.
               </div>
             </div>
             {/* <!--//item-inner--> */}
@@ -42,10 +42,9 @@ const BeneFitSection = () => {
               />
               <h3 className="item-title">Loved by 1,000 customers</h3>
               <div className="item-desc">
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-                commodo ligula eget dolor. Aenean massa. Cum sociis natoque
-                penatibus et magnis dis parturient montes, nascetur ridiculus
-                mus.
+                From the sun-drenched shores of Queensland to the crisp air of
+                Tasmania, our eBay journey over the last three years has been a
+                sweet symphony of delivering beehive treasures across Australia.
               </div>
             </div>
             {/* <!--//item-inner--> */}
@@ -63,10 +62,8 @@ const BeneFitSection = () => {
               />
               <h3 className="item-title">Taste the difference</h3>
               <div className="item-desc">
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-                commodo ligula eget dolor. Aenean massa. Cum sociis natoque
-                penatibus et magnis dis parturient montes, nascetur ridiculus
-                mus.
+                Your go-to hub for quality beekeeping gear, catering to both
+                experts and beginners. Explore top industry essentials with us!
               </div>
             </div>
             {/* <!--//item-inner--> */}

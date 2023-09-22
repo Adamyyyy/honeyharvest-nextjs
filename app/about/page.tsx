@@ -45,13 +45,12 @@ const AboutPage = () => {
           <h2 className="block-heading text-center">Our Beekeeping Supplies</h2>
           <div className="block-intro text-center">
             <p>
-              High quality Beekeeping Equipment Supplier in Sydney, Australia.
-              We develop and import our own Beekeeping products, we are
-              constantly improving our products Quality, Transport Delivery
-              Logistics and IT systems.Our goal is to provide executive level of
-              service for Online Shopping. Specialising in a range of Honey
-              Extractors, Beehives, Made in Australia Jars, Getting Started in
-              Beekeeping Books, Bee Smoker, Uncapping Stations and more.
+              Premier Beekeeping Equipment Provider in Sydney, Australia. We
+              innovate and source our unique beekeeping items, continually
+              enhancing product quality, delivery logistics, and digital
+              systems. We aim to elevate the online shopping experience,
+              offering specialties like Honey Extractors, Beehives, Beginner&apos;s
+              Beekeeping Guides, Bee Smokers,and more.
             </p>
 
             <div className="row justify-content-center">

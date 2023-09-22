@@ -38,9 +38,8 @@ const ProductPage = () => {
         <div className="container">
           <h2 className="block-heading text-center">Our Products</h2>
           <div className="block-intro text-center">
-            Intro goes here ipsum dolor sit amet, consectetuer adipiscing elit.
-            Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque
-            penatibus et magnis dis parturient montes.
+            Discover our selection of premium beekeeping equipment, crafted for
+            optimal hive care. We offer products to cater to every requirement.
           </div>
           <div className="row">
             <div className="item col-6 col-lg-3">

@@ -10,9 +10,9 @@ const Footer = () => {
               <h3 className="col-title">About</h3>
               <ul className="footer-menu list-unstyled">
                 <li>
-                  <a className="text-link" href="about.html">
+                  <Link className="text-link" href="/about">
                     Comoany
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -23,24 +23,24 @@ const Footer = () => {
               <h3 className="col-title">Product</h3>
               <ul className="footer-menu list-unstyled">
                 <li>
-                  <a className="text-link" href="product.html">
+                  <Link className="text-link" href="/product">
                     10 Frame Beehive
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a className="text-link" href="product.html">
+                  <Link className="text-link" href="/product">
                     Hive Frames
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a className="text-link" href="product.html">
+                  <Link className="text-link" href="/product">
                     Bee Excluder
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a className="text-link" href="product.html">
+                  <Link className="text-link" href="/product">
                     Ventilated Bee Hive Bottom Board
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -51,12 +51,12 @@ const Footer = () => {
               <h3 className="col-title">Where to Buy</h3>
               <ul className="footer-menu list-unstyled">
                 <li>
-                  <a
+                  <Link
                     className="text-link"
                     href="https://www.ebay.com.au/usr/honeyharvest"
                   >
                     ebay
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -67,17 +67,17 @@ const Footer = () => {
               <h3 className="col-title">Legal</h3>
               <ul className="footer-menu list-unstyled">
                 <li>
-                  <Link className="text-link" href="#">
+                  <Link className="text-link" href="/">
                     Privacy
                   </Link>
                 </li>
                 <li>
-                  <Link className="text-link" href="#">
+                  <Link className="text-link" href="/">
                     Terms of Services
                   </Link>
                 </li>
                 <li>
-                  <Link className="text-link" href="#">
+                  <Link className="text-link" href="/">
                     Policies
                   </Link>
                 </li>
@@ -88,39 +88,11 @@ const Footer = () => {
 
         <div className="divider"></div>
         <div className="footer-bottom text-center">
-          {/* <ul className="social-media list-inline">
-            <li className="list-inline-item">
-              <a href="#">
-                <i className="fab fa-twitter"></i>
-              </a>
-            </li>
-            <li className="list-inline-item">
-              <a href="#">
-                <i className="fab fa-facebook-f"></i>
-              </a>
-            </li>
-            <li className="list-inline-item">
-              <a href="#">
-                <i className="fa-brands fa-ebay"></i>
-              </a>
-            </li>
-            <li className="list-inline-item">
-              <a href="#">
-                <i className="fab fa-instagram"></i>
-              </a>
-            </li>
-            <li className="list-inline-item">
-              <a href="#">
-                <i className="fab fa-vimeo-v"></i>
-              </a>
-            </li>
-          </ul> */}
-
           <small className="copyright">
             Copyright @
-            <a className="text-link" href="#" target="_blank">
-              Honey Harvest
-            </a>
+            <Link className="text-link" href="/" target="_blank">
+              Honeyharvest
+            </Link>
           </small>
         </div>
       </div>

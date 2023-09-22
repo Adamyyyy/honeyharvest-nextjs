@@ -7,9 +7,8 @@ const ProductionSection = () => {
     <section id="seller-section" className="seller-section section">
       <h2 className="section-title">Our Best Seller</h2>
       <div className="section-intro">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
-        elementum felis at lacus blandit egestas. Donec consectetur mollis leo,
-        et pharetra massa eleifend mollis.
+        Ranging from diverse beehive boxes and foundations to Queen excluder and
+        all essential beekeeping tools you might require.
       </div>
       <div className="container">
         <div className="stories-wrapper row">
