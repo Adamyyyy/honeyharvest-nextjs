@@ -49,6 +49,7 @@ a.text-link {
 
 p.text-link {
   text-decoration: none;
+  margin-bottom: 0;
   &:hover {
     text-decoration: underline;
   }

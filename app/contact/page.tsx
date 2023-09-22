@@ -7,8 +7,8 @@ import { useRef, useState, useEffect } from 'react';
 import emailjs, { EmailJSResponseStatus } from '@emailjs/browser';
 
 const ContactPage = () => {
-  const serverId = process.env.NEXT_PUBLIC_SERVER_ID
-  const templateId = process.env.NEXT_PUBLIC_TEMPLATE_ID
+  const serverId = process.env.NEXT_PUBLIC_SERVER_ID;
+  const templateId = process.env.NEXT_PUBLIC_TEMPLATE_ID;
   const publicKey = process.env.NEXT_PUBLIC_PUBLIC_KEY;
   if (!serverId || !templateId || !publicKey) {
     throw new Error('Environment variables not set');
@@ -67,10 +67,10 @@ const ContactPage = () => {
         <div className="container heading-content">
           <h2 className="headline">Get in Touch</h2>
           <div className="meta">
-            We&apos;d love to hear from you. Lorem ipsum dolor sit amet,
+            We are committed to excellent customer service. Please contact us by
             <br className="d-none d-md-block" />
-            consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
-            Aenean massa.
+            using the below quick contact form or email and we will respond to your
+            query within 24 hours.
           </div>
         </div>
       </section>
@@ -85,11 +85,13 @@ const ContactPage = () => {
                     className="fas fa-phone-volume item-icon"
                     aria-hidden="true"
                   ></i>{' '}
-                  Enterprise Sales
+                  Pick Up Upon Enquirers
                 </h4>
                 <div className="item-content">
-                  Lorem ipsum dolor sit amet, consectetuer. Contact our sales
-                  team at <p className="text-link">xxxx xxx xxx</p>.
+                  <span>Location: </span>
+                  <p className="text-link">
+                    19 Clapham Rd, Regents Park, NSW, Australia, 2162
+                  </p>
                 </div>
               </div>
             </div>
@@ -97,12 +99,12 @@ const ContactPage = () => {
             <div className="item col-12 col-md-6">
               <div className="item-inner">
                 <h4 className="item-title">
-                  <i className="fas fa-users item-icon" aria-hidden="true"></i>{' '}
-                  Partnership Inquiries
+                  <i className="fas fa-users item-icon" aria-hidden="true"></i>
+                  Get in Touch by Email
                 </h4>
                 <div className="item-content">
-                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                  Aenean commodo ligula eget dolor Use the contact form below.
+                  <span>Email: </span>
+                  <p className="text-link">sales@honeyharvest.com.au</p>
                 </div>
               </div>
             </div>

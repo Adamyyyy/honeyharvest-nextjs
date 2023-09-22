@@ -39,7 +39,8 @@ const ProductPage = () => {
           <h2 className="block-heading text-center">Our Products</h2>
           <div className="block-intro text-center">
             Discover our selection of premium beekeeping equipment, crafted for
-            optimal hive care. We offer products to cater to every requirement.
+            optimal hive care. <br className="d-none d-md-block"/>
+            We offer products to cater to every requirement.
           </div>
           <div className="row">
             <div className="item col-6 col-lg-3">
