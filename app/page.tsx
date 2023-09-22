@@ -1,7 +1,13 @@
-import { Inter } from '@next/font/google';
-
-const inter = Inter({ subsets: ['latin'] });
+import BenefitsSection from '@/components/BenefitsSection';
+import ProductionSection from '@/components/ProductionSection';
+import PromoSection from 'components/PromoSection';
 
 export default function Home() {
-  return <main>home</main>;
+  return (
+    <main>
+      <PromoSection />
+      <BenefitsSection />
+      <ProductionSection/>
+    </main>
+  );
 }
