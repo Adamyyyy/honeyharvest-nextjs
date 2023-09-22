@@ -1,11 +1,9 @@
 /* eslint-disable @next/next/no-img-element */
-import { faEbay } from '@fortawesome/free-brands-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Image from 'next/image';
 import Link from 'next/link';
 import heroProduct from 'public/img/hero-product.jpg';
 
-const Product = () => {
+const ProductPage = () => {
   return (
     <div className="product-page">
       <section className="heading-section section section-on-bg">
@@ -240,4 +238,4 @@ const Product = () => {
   );
 };
 
-export default Product;
+export default ProductPage;

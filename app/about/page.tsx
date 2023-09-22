@@ -5,7 +5,7 @@ import heroAbout from 'public/img/hero-about.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCheck, faComputerMouse } from '@fortawesome/free-solid-svg-icons';
 
-const About = () => {
+const AboutPage = () => {
   return (
     <div className="about-page">
       <section className="heading-section section section-on-bg">
@@ -95,4 +95,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default AboutPage;

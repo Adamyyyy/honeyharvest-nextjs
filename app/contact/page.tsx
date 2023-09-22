@@ -6,7 +6,7 @@ import heroContact from 'public/img/hero-contact.jpg';
 import { useRef, useState, useEffect } from 'react';
 import emailjs, { EmailJSResponseStatus } from '@emailjs/browser';
 
-export const Contact = () => {
+const ContactPage = () => {
   const serverId = process.env.NEXT_PUBLIC_SERVER_ID as string;
   const templateId = process.env.NEXT_PUBLIC_TEMPLATE_ID as string;
   const publicKey = process.env.NEXT_PUBLIC_PUBLIC_KEY;
@@ -186,4 +186,4 @@ export const Contact = () => {
   );
 };
 
-export default Contact;
+export default ContactPage;
