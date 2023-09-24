@@ -25,9 +25,8 @@ const ProductionSection = () => {
                     <FontAwesomeIcon icon={faCheck} style={{ width: '20px' }} />
                   </span>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit
-                    aenean commodo ligula eget dolor aenean massa. Cum sociis
-                    natoque penatibus.
+                    Double level hive features dovetail joints for easy assembly
+                    and added strength. Made from New Zealand Pine
                   </p>
                 </div>
                 <Link className="item-link" href="/product"></Link>
@@ -42,17 +41,16 @@ const ProductionSection = () => {
               <div className="item-mask"></div>
               <div className="item-content">
                 <h3 className="content-title">
-                  10 Frame Beehive Flat Pack With Mesh Ventilated Bee Hive
-                  Bottom Board
+                  100 X Full Depth Flat-pack Beehive Frame <br />
+                  With Brass Eyelets
                 </h3>
                 <div className="content-desc">
                   <span className="icon-holder">
                     <FontAwesomeIcon icon={faCheck} style={{ width: '20px' }} />
                   </span>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit
-                    aenean commodo ligula eget dolor aenean massa. Cum sociis
-                    natoque penatibus.
+                    Box of 100 Full Depth Unassembled Bee Frame With Brass
+                    Eyelets.
                   </p>
                 </div>
                 <Link className="item-link" href="/product"></Link>
@@ -67,18 +65,14 @@ const ProductionSection = () => {
               <div className="item-mask"></div>
               <div className="item-content">
                 <h3 className="content-title">
-                  Ventilated Bee Hive Bottom Board <br />
-                  For 10 Frame Beehive Box
+                  Plastic Foundation <br />
+                  for Full Depth Hive Frames
                 </h3>
                 <div className="content-desc">
                   <span className="icon-holder">
                     <FontAwesomeIcon icon={faCheck} style={{ width: '20px' }} />
                   </span>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit
-                    aenean commodo ligula eget dolor aenean massa. Cum sociis
-                    natoque penatibus.
-                  </p>
+                  <p>Premiu Foodgrade Plastic Foundation Sheet</p>
                 </div>
                 <Link className="item-link" href="/product"></Link>
               </div>
@@ -92,17 +86,15 @@ const ProductionSection = () => {
               <div className="item-mask"></div>
               <div className="item-content">
                 <h3 className="content-title">
-                  3 x 10 Frame Plastic <br />
-                  Bee Excluder
+                  8 Frame Beehive Flat Pack <br />
+                  With Mesh Ventilated Bee Hive Bottom Board
                 </h3>
                 <div className="content-desc">
                   <span className="icon-holder">
                     <FontAwesomeIcon icon={faCheck} style={{ width: '20px' }} />
                   </span>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit
-                    aenean commodo ligula eget dolor aenean massa. Cum sociis
-                    natoque penatibus.
+                    Made from New Zealand Pine. Mesh Ventilated Bottom Board.
                   </p>
                 </div>
                 <Link className="item-link" href="/product"></Link>

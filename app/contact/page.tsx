@@ -104,7 +104,7 @@ const ContactPage = () => {
                 </h4>
                 <div className="item-content">
                   <span>Email: </span>
-                  <p className="text-link">sales@honeyharvest.com.au</p>
+                  <p className="text-link">jennyliu9404@gmail.com</p>
                 </div>
               </div>
             </div>

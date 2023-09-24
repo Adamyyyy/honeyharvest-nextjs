@@ -62,7 +62,7 @@ const Footer = () => {
             </div>
           </div>
 
-          <div className="footer-col col-6 col-md-3">
+          {/* <div className="footer-col col-6 col-md-3">
             <div className="footer-col-inner">
               <h3 className="col-title">Legal</h3>
               <ul className="footer-menu list-unstyled">
@@ -83,7 +83,7 @@ const Footer = () => {
                 </li>
               </ul>
             </div>
-          </div>
+          </div> */}
         </div>
 
         <div className="divider"></div>
@@ -91,8 +91,9 @@ const Footer = () => {
           <small className="copyright">
             Copyright @
             <Link className="text-link" href="/" target="_blank">
-              Honeyharvest
+              Honeyharvest.
             </Link>
+            All Rights Reserved.
           </small>
         </div>
       </div>

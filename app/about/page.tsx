@@ -22,9 +22,11 @@ const AboutPage = () => {
         <div className="container heading-content">
           <h2 className="headline">About Our Company</h2>
           <div className="intro">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium
+            Committed to providing you with fantastic products and impeccable
+            service for beekeeping.
             <br />
-            Aenean commodo ligula eget dolor.
+            Whatever your beekeeping need is, we look forward to hearing from
+            you.
           </div>
           <div className="actions">
             <Link href="https://www.ebay.com.au/usr/honeyharvest">
@@ -49,8 +51,8 @@ const AboutPage = () => {
               innovate and source our unique beekeeping items, continually
               enhancing product quality, delivery logistics, and digital
               systems. We aim to elevate the online shopping experience,
-              offering specialties like Honey Extractors, Beehives, Beginner&apos;s
-              Beekeeping Guides, Bee Smokers,and more.
+              offering specialties like Honey Extractors, Beehives,
+              Beginner&apos;s Beekeeping Guides, Bee Smokers,and more.
             </p>
 
             <div className="row justify-content-center">
