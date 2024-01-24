@@ -19,7 +19,7 @@ const Header = () => {
     <header id="header" className="header">
       <div className="container">
         <h1 className="logo">
-          <Link href="#">
+          <Link href="/">
             <Image src={logo} alt="logo" />
             <span className="text">Honeyharvest</span>
           </Link>
@@ -49,7 +49,7 @@ const Header = () => {
                 <li className="nav-item">
                   <Link
                     className={`nav-link ${isActive('ABOUT') ? 'active' : ''}`}
-                    href="/about"
+                    href="about"
                   >
                     About us
                   </Link>
