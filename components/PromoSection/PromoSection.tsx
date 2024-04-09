@@ -47,8 +47,7 @@ const PromoSection = () => {
           has never been easier
         </h2>
         <p className="tagline">
-          Fresh honey flows right out of the hive and into your jar. No mess, no
-          fuss.
+        We supply backyard beekeepers with everything needed to start and continue year-round.
         </p>
         <div className="actions">
           <Link className="btn btn-cta" href="#">

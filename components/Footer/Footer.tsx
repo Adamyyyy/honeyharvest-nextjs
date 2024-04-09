@@ -11,7 +11,7 @@ const Footer = () => {
               <ul className="footer-menu list-unstyled">
                 <li>
                   <Link className="text-link" href="/about">
-                    Comoany
+                    Company
                   </Link>
                 </li>
               </ul>
