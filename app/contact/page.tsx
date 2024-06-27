@@ -67,7 +67,7 @@ const ContactPage = () => {
         <div className="container heading-content">
           <h2 className="headline">Get in Touch</h2>
           <div className="meta">
-            We are committed to excellent customer service. Please contact us by 
+            We are committed to excellent customer service. Please contact us by&nbsp;
             <br className="d-none d-md-block" />
             using the below quick contact form or email and we will respond to your
             query within 24 hours.
